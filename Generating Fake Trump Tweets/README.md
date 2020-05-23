@@ -1,4 +1,6 @@
 Here I used Google Colab to use a GPU for training   
+First an N-gram Markov Model is used to train the dataset to generate tweets that emulate Donald Trump's language and style.  
+Then a more advanced RNN model is used.  
 
 Data was obtained from http://www.trumptwitterarchive.com/archive  
 <br>
@@ -15,3 +17,5 @@ df2 = pd.read_csv(io.BytesIO(uploaded['Filename.csv']))</b>
 Dataset is now stored in a Pandas Dataframe    
 
 Ref Link : https://towardsdatascience.com/3-ways-to-load-csv-files-into-colab-7c14fcbdcb92
+
+
