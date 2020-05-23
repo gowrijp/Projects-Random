@@ -1,4 +1,7 @@
 Here I used Google Colab to use a GPU for training   
+
+Data was obtained from http://www.trumptwitterarchive.com/archive  
+
 <br>
 <b><i>Different ways to upload dataset to colab:</i></b>  
 - From Github : Click on the dataset in your repository, then click on View Raw. Copy the link to the raw dataset and store it as a string variable called url in Colab. Then do pd.read_csv(url) to read the file.  
